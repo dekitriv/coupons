@@ -94,7 +94,7 @@ $.ajax({
     type: "get",
     success: function(data){
         allData = data;
-        if(location.href.includes("shop.html")){
+        if(location.href.includes("index.html")){
             ispis(allData);
             ispisKategorija(allData);
             ispisFilteraZaCenu(allData);
@@ -623,7 +623,6 @@ function ispisiSingleProduct(){
             </div>
         </div>
     </div>
-    <h3>Related Products</h3>
     <div id="similarProducts">
     </div>
 </div>
@@ -632,6 +631,14 @@ function ispisiSingleProduct(){
     $("#singleProduct").html(html);
     let similarProductsArr = allData.filter(x => prod.kategorija.id == x.kategorija.id && prod.id != x.id);
     console.log(similarProductsArr)
-    ispis(similarProductsArr, "similarProducts")
+    if(similarProductsArr.length){
+        ispis(similarProductsArr, "similarProducts");
+        //$("<h3>Related products</h3>").insertBefore($("#similarProducts"));
+        $("#similarProducts").prepend("<h3>Related products</h3>");
+
+    }else{
+        $("#similarProducts").html("<h3>No related products found</h3>");
+    }
+    
 };
 
