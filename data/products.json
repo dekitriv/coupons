@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "slika": {
+            "src": "maldives_800x600.jpg",
+            "alt": "Maldives"
+        },
+        "naslov": "Trip to Maldives",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 1599,
+            "nova": 990
+        },
+        "rating": 5,
+        "kategorija": {
+            "id": 1,
+            "naziv": "travel",
+            "fafa": "fas fa-umbrella-beach"
+        }
+    },
+    {
+        "id": 2,
+        "slika": {
+            "src": "spaghetti_800x600.jpg",
+            "alt": "Spaghetti"
+        },
+        "naslov": "Beautiful spaghetti",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 35,
+            "nova": 12
+        },
+        "rating": 3.5,
+        "kategorija": {
+            "id": 2,
+            "naziv": "food & drink",
+            "fafa": "fas fa-hamburger"
+        }
+    },
+    {
+        "id": 3,
+        "slika": {
+            "src": "nikon_800x600.jpg",
+            "alt": "Nikon"
+        },
+        "naslov": "Nikon camera lenses",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 390,
+            "nova": 150
+        },
+        "rating": 4,
+        "kategorija": {
+            "id": 3,
+            "naziv": "electronics",
+            "fafa": "fas fa-headphones"
+        }
+    },
+    {
+        "id": 4,
+        "slika": {
+            "src": "beach_holiday_800x600.jpg",
+            "alt": "Beach holiday"
+        },
+        "naslov": "Beach holiday",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 790,
+            "nova": 450
+        },
+        "rating": 4.3,
+        "kategorija": {
+            "id": 1,
+            "naziv": "travel",
+            "fafa": "fas fa-umbrella-beach"
+        }
+    },
+    {
+        "id": 5,
+        "slika": {
+            "src": "beats_headset_800x600.jpg",
+            "alt": "Beats Headset"
+        },
+        "naslov": "Beats Headset",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 290,
+            "nova": 120
+        },
+        "rating": 4.0,
+        "kategorija": {
+            "id": 3,
+            "naziv": "electronics",
+            "fafa": "fas fa-headphones"
+        }
+    },
+    {
+        "id": 6,
+        "slika": {
+            "src": "yeezy_800x600.jpg",
+            "alt": "Adidas Yeezy"
+        },
+        "naslov": "Adidas Yeezy",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 350,
+            "nova": 99
+        },
+        "rating": 4.7,
+        "kategorija": {
+            "id": 4,
+            "naziv": "fashion",
+            "fafa": "fas fa-tshirt"
+        }
+    },
+    {
+        "id": 7,
+        "slika": {
+            "src": "modern_bedroom_800x600.jpg",
+            "alt": "Modern Bedroom"
+        },
+        "naslov": "Modern Bedroom",
+        "opis": "Volutpat torquent orci luctus pharetra volutpat nisl dis",
+        "opisBig": "Tempor nibh vestibulum libero aliquam imperdiet quam dignissim erat risus tortor tincidunt a taciti nostra imperdiet enim elementum nunc aliquam litora volutpat curae per non praesent ultrices orci cursus mauris",
+        "cena": {
+            "stara": 2599,
+            "nova": 1990
+        },
+        "rating": 4,
+        "kategorija": {
+            "id": 6,
+            "naziv": "furniture",
+            "fafa": "fas fa-couch"
+        }
+    }
+]
