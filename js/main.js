@@ -94,7 +94,7 @@ $.ajax({
     type: "get",
     success: function(data){
         allData = data;
-        if(location.href.includes("index.html")){
+        if(location.href.includes("index.html") || location.href.endsWith("coupons/")){
             ispis(allData);
             ispisKategorija(allData);
             ispisFilteraZaCenu(allData);
