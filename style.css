@@ -1192,3 +1192,34 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 .m-50{
     margin: 50px 0px;
 }
+.activeCategory{
+    padding-left: 10px !important;
+    color: #48aad6 !important;
+}
+.errorsContact{
+    display: none;
+    color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.errorsReview{
+    display: none;
+    color: red;
+    margin-top: -10px;
+}
+#contactUs{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+#contactUs input[type="submit"]{
+    margin-top: 35px;
+}
+#contactUs label{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
