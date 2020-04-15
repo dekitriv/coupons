@@ -385,6 +385,7 @@ function dodajULocalStorage(e){
         localStorage.setItem("cartItems", JSON.stringify(currentLocalStorage));
     }
     updateZbirProizvodaUKorpi();
+    alert("Your product has ben added to cart");
 }
 if(location.href.includes("cart.html")){
     (function ispisUCart(products){
