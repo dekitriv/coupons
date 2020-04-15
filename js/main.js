@@ -355,6 +355,7 @@ function filtriraj(e){
 }
 function dodajULocalStorage(e){
     e.preventDefault();
+    console.log("jej");
     let idProizvoda = $(this).data("product_id");
     let currentLocalStorage = dohvatiSveProizvodeLS();
     //console.log(idProizvoda);
