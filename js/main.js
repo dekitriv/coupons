@@ -196,7 +196,7 @@ function ispis(products, id){
                 "box-shadow": "0 1px 1px rgba(0,0,0,0.2)"})
         })
 
-        $(".product-option-shop .add_to_cart_button, .product-option-shop .add_to_cart_button").click(dodajULocalStorage);
+        $(".product-option-shop .add_to_cart_button, .product-inner .add_to_cart_button").click(dodajULocalStorage);
     }
     if(boxView){
         $("#list-view").trigger("click");
